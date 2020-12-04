@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap');
+@font-face {
+  font-family: 'Comic Sans MS';
+  src: url('/assets/fonts/comicSans/ComicSansMS.woff2') format('woff2'),
+      url('/assets/fonts/comicSans/ComicSansMS.woff') format('woff'),
+      url('/assets/fonts/comicSans/ComicSansMS.ttf') format('truetype');
+}
 
 body {
   font-family: 'Source Sans Pro', sans-serif;
