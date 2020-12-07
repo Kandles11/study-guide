@@ -6,6 +6,13 @@
       url('/assets/fonts/comicSans/ComicSansMS.ttf') format('truetype');
 }
 
+@media (prefers-color-scheme: dark) {
+    :root {
+        background-color: #1e1f23;
+        color: white;
+    }
+}
+
 body {
   font-family: 'Source Sans Pro', sans-serif;
 }
