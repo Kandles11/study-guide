@@ -48,7 +48,11 @@ tr:nth-child(even) {background-color: #f2f2f2;}
 .navbar {
   overflow: hidden;
   background-color: #eee;
+  color: black;
+  padding: 10px;
+  text-decoration: none;
 }
+
 
 .navbar a {
   float: left;
