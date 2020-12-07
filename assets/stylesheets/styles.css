@@ -7,14 +7,14 @@
 }
 
 @media (prefers-color-scheme: dark) {
-    :root {
+    /* :root {
         background-color: #1e1f23;
         color: white;
-    }
+    } */
     body{
         background-color: blue;
     }
-    /* .toc-div a{
+    .toc-div a{
         background-color: #52057b;
         color:white;
     }
@@ -22,7 +22,7 @@
         background-color: #892cdc;
         color: white;
     }
-    tr:nth-child(even) {background-color: #292929;} */
+    tr:nth-child(even) {background-color: #292929;}
 }
 
 body {
