@@ -54,6 +54,22 @@ tr:nth-child(even) {background-color: #f2f2f2;}
   text-decoration: none;
 }
 
+.menu-bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-bar-item li{
+    float: left;
+}
+
+.menu-bar-item a {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+}
+
 @media (prefers-color-scheme: dark) {
     :root {
         background-color: #1e1f23;
