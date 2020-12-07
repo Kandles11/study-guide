@@ -60,12 +60,8 @@ tr:nth-child(even) {background-color: #f2f2f2;}
         color: white;
     }
 
-    a {
-        background-color: #52057b;
-    }
-
     .toc-div a{
-        background-color: #52057b;
+        background-color: #301934;
         color:white;
     }
 
