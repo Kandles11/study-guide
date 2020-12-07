@@ -30,7 +30,6 @@ body {
 }
 
 a {
-    background-color: #b99bca;
     color:black;
 }
 
@@ -50,6 +49,8 @@ tr:nth-child(even) {background-color: #f2f2f2;}
 
 .toc-div {
   width: 200px;
+  border-radius: 25px;
+  border-style: solid;
 }
 
 .toc-div a {
