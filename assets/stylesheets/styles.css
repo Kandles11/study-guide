@@ -49,8 +49,12 @@ tr:nth-child(even) {background-color: #f2f2f2;}
 
 .toc-div {
   width: 200px;
-  border-radius: 25px;
   border-style: solid;
+}
+
+.toc-div:first-child {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
 
 .toc-div a {
@@ -59,7 +63,7 @@ tr:nth-child(even) {background-color: #f2f2f2;}
   display: block; /* Make the links appear below each other */
   padding: 12px; /* Add some padding */
   text-decoration: none; /* Remove underline from links */
-  
+    border-radius
 }
 
 .toc-div a:hover {
