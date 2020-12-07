@@ -6,24 +6,7 @@
       url('/assets/fonts/comicSans/ComicSansMS.ttf') format('truetype');
 }
 
-@media (prefers-color-scheme: dark) {
-    :root {
-        background-color: #1e1f23;
-        color: white;
-    }
-    a {
-        background-color: #52057b;
-    }
-    .toc-div a{
-        background-color: #52057b;
-        color:white;
-    }
-    .toc-div a:hover{
-        background-color: #892cdc;
-        color: white;
-    }
-    tr:nth-child(even) {background-color: #292929;}
-}
+
 
 body {
   font-family: 'Source Sans Pro', sans-serif;
@@ -52,18 +35,12 @@ tr:nth-child(even) {background-color: #f2f2f2;}
   border-style: solid;
 }
 
-.toc-div:first-child {
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-}
-
 .toc-div a {
   background-color: #eae1ef; /* Grey background color */
   color: black; /* Black text color */
   display: block; /* Make the links appear below each other */
   padding: 12px; /* Add some padding */
   text-decoration: none; /* Remove underline from links */
-    border-radius
 }
 
 .toc-div a:hover {
@@ -75,4 +52,29 @@ tr:nth-child(even) {background-color: #f2f2f2;}
   color: black;
   padding: 10px;
   text-decoration: none;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        background-color: #1e1f23;
+        color: white;
+    }
+
+    a {
+        background-color: #52057b;
+    }
+
+    .toc-div a{
+        background-color: #52057b;
+        color:white;
+    }
+
+    .toc-div a:hover{
+        background-color: #892cdc;
+        color: white;
+    }
+
+    tr:nth-child(even) {
+        background-color: #292929;
+    }
 }
