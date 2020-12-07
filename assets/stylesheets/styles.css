@@ -7,12 +7,9 @@
 }
 
 @media (prefers-color-scheme: dark) {
-    /* :root {
+    :root {
         background-color: #1e1f23;
         color: white;
-    } */
-    body{
-        background-color: blue;
     }
     .toc-div a{
         background-color: #52057b;
