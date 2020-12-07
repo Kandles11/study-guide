@@ -11,6 +11,9 @@
         background-color: #1e1f23;
         color: white;
     }
+    a {
+        background-color: #52057b;
+    }
     .toc-div a{
         background-color: #52057b;
         color:white;
@@ -27,7 +30,8 @@ body {
 }
 
 a {
-  color:black;
+    background-color: #b99bca;
+    color:black;
 }
 
 table {
