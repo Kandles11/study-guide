@@ -52,20 +52,18 @@ tr:nth-child(even) {background-color: #f2f2f2;}
   text-decoration: none;
 }
 
-.menu-bar {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+.navbar {
+  overflow: hidden;
+  background-color: #333;
 }
 
-.menu-bar-item{
-    float: left;
-}
-
-.menu-bar-item {
-    display: block;
-    padding: 8px;
-    background-color: #dddddd;
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
 
