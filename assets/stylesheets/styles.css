@@ -68,6 +68,12 @@ tr:nth-child(even) {background-color: #f2f2f2;}
     background-color: #dddddd;
 }
 
+.menu-bar-item button {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+}
+
 @media (prefers-color-scheme: dark) {
     :root {
         background-color: #1e1f23;
