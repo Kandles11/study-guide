@@ -58,7 +58,7 @@ tr:nth-child(even) {background-color: #f2f2f2;}
 }
 
 .toc-div a {
-  background-color: #b99bca; /* Grey background color */
+  background-color: #eae1ef; /* Grey background color */
   color: black; /* Black text color */
   display: block; /* Make the links appear below each other */
   padding: 12px; /* Add some padding */
