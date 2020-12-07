@@ -11,6 +11,14 @@
         background-color: #1e1f23;
         color: white;
     }
+    .toc-div a{
+        background-color: #52057b;
+        color:white;
+    }
+    .toc-div a:hover{
+        background-color: #892cdc;
+        color: white;
+    }
 }
 
 body {
