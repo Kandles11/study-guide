@@ -13,7 +13,7 @@
   },
   "scripts": {
     "start": "cd study-guide && react-scripts start",
-    "build": "react-scripts build",
+    "build": "cd study-guide && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
