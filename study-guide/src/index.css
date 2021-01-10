@@ -12,14 +12,19 @@ code {
     monospace;
 }
 
-td{
-  background-color:#fff;border-color:#ccc;border-style:solid;border-width:0px;color:#333;
-  font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;
+table {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid black;
 }
 
-th{
-  background-color:#f0f0f0;border-color:#ccc;border-style:solid;border-width:0px;color:#333;
-  font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;
+th {
+  background-color:#f0f0f0;border-color:#ccc;border-style:solid;border-width:0px;color:#333;padding:10px 5px;
 }
 
-tr{background-color: blue;}
+td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(odd) {background-color: #f2f2f2;}

@@ -19,7 +19,6 @@ function App() {
             expected deadline is before 2021, but it is currently unknown when the transition will be 100% complete. Thank you
             for using Mason's Cool Study Guide!
         </p>
-        {console.log(chapter1Data)}
       </body>
     </div>
   );
