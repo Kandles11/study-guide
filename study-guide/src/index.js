@@ -6,29 +6,20 @@ import {
   Route,
   Link
 } from "react-router-dom";
+
 import './index.css';
 
-import App from './App';
-import TestPage from './TestPage';
-import reportWebVitals from './reportWebVitals';
+import App from './components/App';
+import TestPage from './components/TestPage';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <Router>
-        <App />
-        <Link to="/testPage">testPage</Link>
-
-        <Switch>
-          <Route path="/testPage">
-            <TestPage />
-          </Route>
-        </Switch>
-    </Router>
-  </React.StrictMode>,
+  <Router>
+    <div>
+      <Route exact path="/" component={App} />
+      <Route path="/testPage" component={TestPage} />
+    </div>
+  </Router>,
   document.getElementById('root')
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+

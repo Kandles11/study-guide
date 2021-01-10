@@ -1,9 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+
 
 function App() {
   return (
     <div className="App">
+      
       <body> 
         <h1>Welcome to Study Guide 2.0!</h1>
         <h2>We are way early into production, so please be patient!</h2>
@@ -18,6 +19,7 @@ function App() {
             expected deadline is before 2021, but it is currently unknown when the transition will be 100% complete. Thank you
             for using Mason's Cool Study Guide!
         </p>
+        {console.log(chapter1Data)}
       </body>
     </div>
   );
