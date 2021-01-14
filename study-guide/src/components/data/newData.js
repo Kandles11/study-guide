@@ -1,7 +1,8 @@
 export const usHist1302 = [
   "voice-overs" : {
     {
-      "
+      "Question":"Chapter 32 Part 2 (2nd Half of Chapter),
+      "Answer":""
     }
     {
       "Question": "A group that was very angry about the masssive bailouts of huge banks and corporations after 07-08 econimic metldown and who wanted a radically smaller government was called",
