@@ -1,7 +1,7 @@
 export const usHist1302 = [
   "voice-overs" : {
     {
-      "Question":"Chapter 32 Part 2 (2nd Half of Chapter),
+      "Question":"Chapter 32 Part 2 (2nd Half of Chapter)",
       "Answer":""
     }
     {
