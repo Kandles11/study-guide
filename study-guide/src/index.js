@@ -10,13 +10,13 @@ import {
 import './index.css';
 
 import App from './components/App';
-import TestPage from './components/TestPage';
+import usHist1302 from './components/usHist1302';
 
 ReactDOM.render(
   <Router>
     <div>
       <Route exact path="/" component={App} />
-      <Route path="/testPage" component={TestPage} />
+      <Route path="/usHist1302" component={usHist1302} />
     </div>
   </Router>,
   document.getElementById('root')
