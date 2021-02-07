@@ -20,6 +20,9 @@ function usHist1302() {
         <div class="flexChild">
             <h2>Revel Answers:</h2>
             <a href="#Chapter32RE">Chapter 32</a>
+            <a href="#Chapter18RE">Chapter 18</a>
+            <a href="#Chapter19RE">Chapter 19</a>
+            <a href="#Chapter20RE">Chapter 20</a>
         </div>
         </div>
         <h2>Voice-Overs</h2>
@@ -28,13 +31,13 @@ function usHist1302() {
           <h3 id="Chapter17VO">Chapter 17 VO</h3>
           <Table json={usHist1302Data.voiceovers['Chapter 17']} />
         <h2>Revel</h2>
-          <h3>Chapter 32 RE</h3>
+          <h3 id="Chapter32RE">Chapter 32 RE</h3>
           <Table json={usHist1302Data.revel['Chapter 32']} />
-          <h3>Chapter 18 RE</h3>
+          <h3 id="Chapter18RE">Chapter 18 RE</h3>
           <Table json={usHist1302Data.revel['Chapter 18']} />
-          <h3>Chapter 19 RE</h3>
+          <h3 id="Chapter19RE">Chapter 19 RE</h3>
           <Table json={usHist1302Data.revel['Chapter 19']} />
-          <h3>Chapter 20 RE</h3>
+          <h3 id="Chapter20RE">Chapter 20 RE</h3>
           <Table json={usHist1302Data.revel['Chapter 20']} />
       </body>
     </div>
