@@ -10,6 +10,7 @@ function App() {
         <div class="gridParent">
           <div class="flexChild">
             <h2>History:</h2>
+            <a href="/usHist1301">US History 1301 🇺🇸</a>
             <a href="/usHist1302">US History 1302 🇺🇸</a>
           </div>
         </div>
