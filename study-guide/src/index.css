@@ -29,29 +29,35 @@ td {
 tr:nth-child(odd) {background-color: #f2f2f2;}
 
 a {
-	box-shadow:inset 0px 1px 0px 0px #ffffff;
-	background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
-	background-color:#ffffff;
-	border-radius:6px;
-	border:1px solid #dcdcdc;
+  border-radius: 50px;
+  background: #e0e0e0;
+  box-shadow:  20px 20px 60px #bebebe,
+             -20px -20px 60px #ffffff;
 	display:inline-block;
 	cursor:pointer;
-	color:hsl(0, 0%, 40%);
+	color:#2f2f2f;
 	font-size:15px;
 	font-weight:bold;
-	padding:6px 24px;
+  padding:15px 24px;
 	text-decoration:none;
-    text-shadow:0px 1px 0px #ffffff;
-    margin: 5px;
+     margin: 10px;
 }
-area:hover {
-	background:linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
-	background-color:#f6f6f6;
+a:hover {
+  transition:all .75s ease;
+
+  border-radius: 50px;
+background: linear-gradient(145deg, #cacaca, #f0f0f0);
+box-shadow:  14px 14px 29px #bebebe,
+             -14px -14px 29px #ffffff;
 }
+
 a:active {
-	position:relative;
-	top:1px;
+  border-radius: 50px;
+  background: #e0e0e0;
+  box-shadow: inset 14px 14px 29px #bebebe,
+            inset -14px -14px 29px #ffffff;
 }
+
 
 .flexParent {
     display: flex;
