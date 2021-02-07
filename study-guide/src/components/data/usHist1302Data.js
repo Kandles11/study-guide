@@ -670,6 +670,88 @@ export const usHist1302Data = {
         "Question": "To whom is the following statement referring?: “No man who drags into the dust the most sacred symbols of the Christian world is fit to be president of the United States.”",
         "Answer": "William Jennings Bryan"
       }
+    ],
+    "Chapter 21":[
+      {
+        "The First United States Volunteer Cavalry was also known as the __________.": "Which of the following did Puerto Rico, Guam, and the Philippines have in common at the end of the nineteenth century?",
+        "Rough Riders": "They came under the control of the United States."
+      },
+      {
+        "The First United States Volunteer Cavalry was also known as the __________.": "Theodore Roosevelt would most likely have agreed with which of the following statements?",
+        "Rough Riders": "The United States needs colonies and a great navy to be a great power."
+      },
+      {
+        "The First United States Volunteer Cavalry was also known as the __________.": "Which of the following would an isolationist most likely support?",
+        "Rough Riders": "abolition of the foreign service"
+      },
+      {
+        "The First United States Volunteer Cavalry was also known as the __________.": "What motivated American farmers and industrialists to search for new overseas markets?",
+        "Rough Riders": "saturation of the domestic market"
+      },
+      {
+        "The First United States Volunteer Cavalry was also known as the __________.": "What was Secretary of State William Henry Seward’s motivation for signing a treaty with Russia to purchase Alaska?",
+        "Rough Riders": "to pave the way for the annexation of western Canada"
+      },
+      {
+        "The First United States Volunteer Cavalry was also known as the __________.": "Those who supported the annexation of Hawaii mainly emphasized its __________.",
+        "Rough Riders": "strategic value"
+      },
+      {
+        "The First United States Volunteer Cavalry was also known as the __________.": "Which of the following people emphasized sea power as the key to world domination?",
+        "Rough Riders": "Alfred Thayer Mahan"
+      },
+      {
+        "The First United States Volunteer Cavalry was also known as the __________.": "Which of the following helped stir up American public support for a war with Spain over Cuba?",
+        "Rough Riders": "yellow journalism"
+      },
+      {
+        "The First United States Volunteer Cavalry was also known as the __________.": "In 1898, Americans blamed the sinking of the Maine on __________.",
+        "Rough Riders": "Spain"
+      },
+      {
+        "The First United States Volunteer Cavalry was also known as the __________.": "Which of the following adopted a declaration of human rights that most countries, including the United States, signed?",
+        "Rough Riders": "United Nations"
+      },
+      {
+        "The First United States Volunteer Cavalry was also known as the __________.": "Which of the following places was Chaplain George W. Prioleau most likely referring to when he said, “Here the Negro is not allowed to purchase over the same counter in some stores as the white man purchases over”?",
+        "Rough Riders": "Florida"
+      },
+      {
+        "The First United States Volunteer Cavalry was also known as the __________.": "Which of the following placed Manila and the Philippines within American grasp?",
+        "Rough Riders": "Spanish-American War"
+      },
+      {
+        "The First United States Volunteer Cavalry was also known as the __________.": "Which of the following did Andrew Carnegie, Jane Addams, Samuel Gompers, and Mark Twain share in common?",
+        "Rough Riders": "They all opposed the annexation of the Philippines."
+      },
+      {
+        "The First United States Volunteer Cavalry was also known as the __________.": "Who led the Filipino resistance during the Philippine-American War?",
+        "Rough Riders": "Emilio Aguinaldo"
+      },
+      {
+        "The First United States Volunteer Cavalry was also known as the __________.": "Which of the following implemented changes that prepared the Philippine Islands for self-government?",
+        "Rough Riders": "Taft Commission"
+      },
+      {
+        "The First United States Volunteer Cavalry was also known as the __________.": "Why did the United States promote the Open Door Policy?",
+        "Rough Riders": "to expand trade in China"
+      },
+      {
+        "The First United States Volunteer Cavalry was also known as the __________.": "What was called the “Crossroads of the Pacific”?",
+        "Rough Riders": "Hawaii"
+      },
+      {
+        "The First United States Volunteer Cavalry was also known as the __________.": "From which country did the United States acquire the Philippine Islands?",
+        "Rough Riders": "Spain"
+      },
+      {
+        "The First United States Volunteer Cavalry was also known as the __________.": "Which of the following did the United States acquire as a result of the Spanish-American War?",
+        "Rough Riders": "Puerto Rico"
+      },
+      {
+        "The First United States Volunteer Cavalry was also known as the __________.": "Which of the following would most likely have supported U.S. foreign policy in the Pacific and the Caribbean in the late nineteenth century?",
+        "Rough Riders": "Alfred Thayer Mahan"
+      }
     ]
   }
 };
