@@ -24,6 +24,7 @@ function usHist1302() {
           <h3>Chapter 19 RE</h3>
           <Table json={usHist1302Data.revel['Chapter 19']} />
           <h3>Chapter 20 RE</h3>
+          <Table json={usHist1302Data.revel['Chapter 20']} />
       </body>
     </div>
   );

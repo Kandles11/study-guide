@@ -299,5 +299,119 @@ export const usHist1302Data = {
       "Question": "In 1900, the immigrant population in Texas was concentrated along the border with __________.",
       "Answer": "Mexico"
     }],
+    "Chapter 20":[
+      {
+        "Question": "Which of the following was the most divisive issue in presidential campaigns in the 1890s?",
+        "Answer": "basis of the currency"
+      },
+      {
+        "Question": "The economic situation in the United States for most of the 1890s was most similar to that of the __________.",
+        "Answer": "1930s"
+      },
+      {
+        "Question": "Which of the following was a consequence of the depression of the 1890s?",
+        "Answer": "expanded role of the presidency"
+      },
+      {
+        "Question": "Which president vetoed more bills than all of his predecessors combined?",
+        "Answer": "Grover Cleveland"
+      },
+      {
+        "Question": "Which of the following would most Republicans have supported in the late nineteenth century?",
+        "Answer": "high protective tariff"
+      },
+      {
+        "Question": "Which of the following acts created the bipartisan Civil Service Commission?",
+        "Answer": "Pendleton Act"
+      },
+      {
+        "Question": "Which of the following was a result of the midterm elections in 1890?",
+        "Answer": "The Republicans lost 78 seats in the House."
+      },
+      {
+        "Question": "Which of the following was included in the Ocala Demands?",
+        "Answer": "free coinage of silver"
+      },
+      {
+        "Question": "Which organization came to dominate the Alliance movement in the 1890s?",
+        "Answer": "National Farmers’ Alliance and Industrial Union"
+      },
+      {
+        "Question": "Which of the following addressed the concerns raised by the Populist movement and party of the 1890s?",
+        "Answer": "progressivism"
+      },
+      {
+        "Question": "What were members of the People’s Party called?",
+        "Answer": "Populists"
+      },
+      {
+        "Question": "Which of the following occurred in 1893?",
+        "Answer": "The New York stock market crashed."
+      },
+      {
+        "Question": "The Supreme Court’s support of the use of the __________ in labor disputes gave business and government a powerful antilabor weapon that impeded union growth.",
+        "Answer": "injunction"
+      },
+      {
+        "Question": "In response to the Panic of 1893, which of the following acts did President Grover Cleveland repeal?",
+        "Answer": "Sherman Silver Purchase Act"
+      },
+      {
+        "Question": "Which of the following was a result of the elections of 1894?",
+        "Answer": "The Republicans became the country’s majority party."
+      },
+      {
+        "Question": "Which of the following was a goal of the League for the Protection of the Family?",
+        "Answer": "compulsory education for children"
+      },
+      {
+        "Question": "Which of the following reflects the influence of naturalism?",
+        "Answer": "Sister Carrie"
+      },
+      {
+        "Question": "What pen name did Samuel Langhorne Clemens use?",
+        "Answer": "Mark Twain"
+      },
+      {
+        "Question": "What was the election of 1896 called?",
+        "Answer": "“battle of the standards”"
+      },
+      {
+        "Question": "By 1896, what had silver come to symbolize?",
+        "Answer": "rural values"
+      },
+      {
+        "Question": "The nomination of William McKinley at the Republican Convention in 1896 was a victory for supporters of __________.",
+        "Answer": "the gold standard"
+      },
+      {
+        "Question": "Which of the following was a Populist proposal that was later adopted under different leadership?",
+        "Answer": "direct election of U.S. senators"
+      },
+      {
+        "Question": "Which of the following acts ended the silver controversy that had dominated the 1890s?",
+        "Answer": "Gold Standard Act"
+      },
+      {
+        "Question": "Which of the following contributed to the economic recovery that characterized the early years of the McKinley administration?",
+        "Answer": "discovery of gold in Australia and Alaska"
+      },
+      {
+        "Question": "Who became president after William McKinley’s assassination?",
+        "Answer": "Theodore Roosevelt"
+      },
+      {
+        "Question": "What did the People’s Party platform favor?",
+        "Answer": "free coinage of silver"
+      },
+      {
+        "Question": "The Farmers’ Alliance built a coalition with which group in the early 1890s?",
+        "Answer": "Knights of Labor"
+      },
+      {
+        "Question": "To whom is the following statement referring?: “No man who drags into the dust the most sacred symbols of the Christian world is fit to be president of the United States.”",
+        "Answer": "William Jennings Bryan"
+      }
+    ]
   }
 };
