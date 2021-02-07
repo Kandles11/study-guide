@@ -673,84 +673,88 @@ export const usHist1302Data = {
     ],
     "Chapter 21":[
       {
-        "The First United States Volunteer Cavalry was also known as the __________.": "Which of the following did Puerto Rico, Guam, and the Philippines have in common at the end of the nineteenth century?",
-        "Rough Riders": "They came under the control of the United States."
+        "Question": "The First United States Volunteer Cavalry was also known as the __________.",
+        "Answer": "Rough Riders"
       },
       {
-        "The First United States Volunteer Cavalry was also known as the __________.": "Theodore Roosevelt would most likely have agreed with which of the following statements?",
-        "Rough Riders": "The United States needs colonies and a great navy to be a great power."
+        "Question": "Which of the following did Puerto Rico, Guam, and the Philippines have in common at the end of the nineteenth century?",
+        "Answer": "They came under the control of the United States."
       },
       {
-        "The First United States Volunteer Cavalry was also known as the __________.": "Which of the following would an isolationist most likely support?",
-        "Rough Riders": "abolition of the foreign service"
+        "Question": "Theodore Roosevelt would most likely have agreed with which of the following statements?",
+        "Answer": "The United States needs colonies and a great navy to be a great power."
       },
       {
-        "The First United States Volunteer Cavalry was also known as the __________.": "What motivated American farmers and industrialists to search for new overseas markets?",
-        "Rough Riders": "saturation of the domestic market"
+        "Question": "Which of the following would an isolationist most likely support?",
+        "Answer": "abolition of the foreign service"
       },
       {
-        "The First United States Volunteer Cavalry was also known as the __________.": "What was Secretary of State William Henry Seward’s motivation for signing a treaty with Russia to purchase Alaska?",
-        "Rough Riders": "to pave the way for the annexation of western Canada"
+        "Question": "What motivated American farmers and industrialists to search for new overseas markets?",
+        "Answer": "saturation of the domestic market"
       },
       {
-        "The First United States Volunteer Cavalry was also known as the __________.": "Those who supported the annexation of Hawaii mainly emphasized its __________.",
-        "Rough Riders": "strategic value"
+        "Question": "What was Secretary of State William Henry Seward’s motivation for signing a treaty with Russia to purchase Alaska?",
+        "Answer": "to pave the way for the annexation of western Canada"
       },
       {
-        "The First United States Volunteer Cavalry was also known as the __________.": "Which of the following people emphasized sea power as the key to world domination?",
-        "Rough Riders": "Alfred Thayer Mahan"
+        "Question": "Those who supported the annexation of Hawaii mainly emphasized its __________.",
+        "Answer": "strategic value"
       },
       {
-        "The First United States Volunteer Cavalry was also known as the __________.": "Which of the following helped stir up American public support for a war with Spain over Cuba?",
-        "Rough Riders": "yellow journalism"
+        "Question": "Which of the following people emphasized sea power as the key to world domination?",
+        "Answer": "Alfred Thayer Mahan"
       },
       {
-        "The First United States Volunteer Cavalry was also known as the __________.": "In 1898, Americans blamed the sinking of the Maine on __________.",
-        "Rough Riders": "Spain"
+        "Question": "Which of the following helped stir up American public support for a war with Spain over Cuba?",
+        "Answer": "yellow journalism"
       },
       {
-        "The First United States Volunteer Cavalry was also known as the __________.": "Which of the following adopted a declaration of human rights that most countries, including the United States, signed?",
-        "Rough Riders": "United Nations"
+        "Question": "In 1898, Americans blamed the sinking of the Maine on __________.",
+        "Answer": "Spain"
       },
       {
-        "The First United States Volunteer Cavalry was also known as the __________.": "Which of the following places was Chaplain George W. Prioleau most likely referring to when he said, “Here the Negro is not allowed to purchase over the same counter in some stores as the white man purchases over”?",
-        "Rough Riders": "Florida"
+        "Question": "Which of the following adopted a declaration of human rights that most countries, including the United States, signed?",
+        "Answer": "United Nations"
       },
       {
-        "The First United States Volunteer Cavalry was also known as the __________.": "Which of the following placed Manila and the Philippines within American grasp?",
-        "Rough Riders": "Spanish-American War"
+        "Question": "Which of the following places was Chaplain George W. Prioleau most likely referring to when he said, “Here the Negro is not allowed to purchase over the same counter in some stores as the white man purchases over”?",
+        "Answer": "Florida"
       },
       {
-        "The First United States Volunteer Cavalry was also known as the __________.": "Which of the following did Andrew Carnegie, Jane Addams, Samuel Gompers, and Mark Twain share in common?",
-        "Rough Riders": "They all opposed the annexation of the Philippines."
+        "Question": "Which of the following placed Manila and the Philippines within American grasp?",
+        "Answer": "Spanish-American War"
       },
       {
-        "The First United States Volunteer Cavalry was also known as the __________.": "Who led the Filipino resistance during the Philippine-American War?",
-        "Rough Riders": "Emilio Aguinaldo"
+        "Question": "Which of the following did Andrew Carnegie, Jane Addams, Samuel Gompers, and Mark Twain share in common?",
+        "Answer": "They all opposed the annexation of the Philippines."
       },
       {
-        "The First United States Volunteer Cavalry was also known as the __________.": "Which of the following implemented changes that prepared the Philippine Islands for self-government?",
-        "Rough Riders": "Taft Commission"
+        "Question": "Who led the Filipino resistance during the Philippine-American War?",
+        "Answer": "Emilio Aguinaldo"
       },
       {
-        "The First United States Volunteer Cavalry was also known as the __________.": "Why did the United States promote the Open Door Policy?",
-        "Rough Riders": "to expand trade in China"
+        "Question": "Which of the following implemented changes that prepared the Philippine Islands for self-government?",
+        "Answer": "Taft Commission"
       },
       {
-        "The First United States Volunteer Cavalry was also known as the __________.": "What was called the “Crossroads of the Pacific”?",
-        "Rough Riders": "Hawaii"
+        "Question": "Why did the United States promote the Open Door Policy?",
+        "Answer": "to expand trade in China"
       },
       {
-        "The First United States Volunteer Cavalry was also known as the __________.": "From which country did the United States acquire the Philippine Islands?",
-        "Rough Riders": "Spain"
+        "Question": "What was called the “Crossroads of the Pacific”?",
+        "Answer": "Hawaii"
       },
       {
-        "The First United States Volunteer Cavalry was also known as the __________.": "Which of the following did the United States acquire as a result of the Spanish-American War?",
-        "Rough Riders": "Puerto Rico"
+        "Question": "From which country did the United States acquire the Philippine Islands?",
+        "Answer": "Spain"
       },
       {
-        "The First United States Volunteer Cavalry was also known as the __________.": "Which of the following would most likely have supported U.S. foreign policy in the Pacific and the Caribbean in the late nineteenth century?",
-        "Rough Riders": "Alfred Thayer Mahan"
+        "Question": "Which of the following did the United States acquire as a result of the Spanish-American War?",
+        "Answer": "Puerto Rico"
+      },
+      {
+        "Question": "Which of the following would most likely have supported U.S. foreign policy in the Pacific and the Caribbean in the late nineteenth century?",
+        "Answer": "Alfred Thayer Mahan"
       }
     ]
   }
