@@ -43,6 +43,174 @@ export const usHist1302Data = {
         "Question": "What did the book, A Century of Dishonor, lead to?",
         "Answer": "the Dawes Severalty Act"
       }
+    ],
+    "Chapter 18":[
+      {
+        "Question": "Were the Molly Maguires successful in getting the needs of the coal miners addressed?",
+        "Answer": "No"
+      },
+      {
+        "Question": "What law was passed requiring all Chinese residents of the U.S. to carry a resident permit?",
+        "Answer": "Geary Act"
+      },
+      {
+        "Question": "Which labor Union was very secretive, and allowed both skilled and unskilled workers to join?",
+        "Answer": "Knights of Labor"
+      },
+      {
+        "Question": "Which labor union only allowed skilled workers to join, and even derailed the attempts of unskilled laborers to unionize?",
+        "Answer": "American Federation of Labor"
+      },
+      {
+        "Question": "Which President was the first to have electrical illumination and the first to have a telephone in the White House?",
+        "Answer": "Hayes"
+      },
+      {
+        "Question": "Who introduced the idea of having only 4 time zones?",
+        "Answer": "Charles F. Dowd"
+      },
+      {
+        "Question": "What is one thing that is NOT true about the Pacific Railway Act?",
+        "Answer": "It required railroads to be consolidated."
+      },
+      {
+        "Question": "Which two men worked together to bring order out of chaos and consolidate railroads, though they might have labored outside of the law to do so?",
+        "Answer": "J. Edgar Thompson and Cornelius Vanderbilt"
+      },
+      {
+        "Question": "Which business titan created the first monopoly, ending up with 90% of the oil refining capacity in America?",
+        "Answer": "John D. Rockefeller"
+      },
+      {
+        "Question": "What business titan created the first billion dollar corporation - U.S. Steel?",
+        "Answer": "J.P. Morgan"
+      }
+    ],
+    "Chapter 19":[
+      {
+        "Question": "The reformers who called for good government were called the __ by the political machines. 10 points",
+        "Answer": "Goo Goos"
+      },
+      {
+        "Question": "British philosopher __ came up with the idea of Social Darwinism, which led to brutal business practices.",
+        "Answer": "Herbert Spencer"
+      },
+      {
+        "Question": "One thing NOT true about the Grandfather Clause was __.",
+        "Answer": "If your grandfather had owned land before Reconstruction then you could, vote without paying the poll tax."
+      },
+      {
+        "Question": "Birds of Passage were people who came to America __.",
+        "Answer": "for the job opportunities. They did not plan to stay."
+      },
+      {
+        "Question": "What was NOT a reason discussed for the first 3 waves to oppose the 4th wave of immigrants?",
+        "Answer": "People felt they took all of the good land available"
+      },
+      {
+        "Question": "Why did Grover Cleveland veto the literacy bill that Congress passed in 1896?",
+        "Answer": "He said that it tested prior opportunity, and America was a land of opportunity."
+      },
+      {
+        "Question": "What groups did the National Origins Act NOT affect negatively?",
+        "Answer": "Northern and Western Europeans"
+      },
+      {
+        "Question": "According to the voice over, in the 1880s, the rural population increased by 5 million, but the urban population increased by __.",
+        "Answer": "40 million"
+      },
+      {
+        "Question": "Architect __ designed dumbell tenements, which attempted to fix the problem of airlessness in inner apartments.",
+        "Answer": "James Ware"
+      },
+      {
+        "Question": "African American boxer __, from Galveston, was nationally known by 1902.",
+        "Answer": "Jack Johnson"
+      }
+    ],
+    "Chapter 20":[
+      {
+        "Question": "According to the voice over, what percentage of eligible voters was exercising the right to vote during the late 19th century?",
+        "Answer": 80
+      },
+      {
+        "Question": "During the late 19th century, if a presidential or vice presidential nominee was from Illinois, Indiana, Ohio, or New York, he was likely chosen as a candidate because __.",
+        "Answer": "his was a swing state."
+      },
+      {
+        "Question": "Giteau assassinated Garfield because __.",
+        "Answer": "he was passed over by Garfield for a position in the new government."
+      },
+      {
+        "Question": "The Act that established a commission to provide testing for lower level government positions, thereby helping to get rid of a lot of patronage positions, was the __.",
+        "Answer": "Pendleton Act"
+      },
+      {
+        "Question": "The presidential candidate who was found to have fathered an illegitimate child in his youth was __.",
+        "Answer": "Grover Cleveland"
+      },
+      {
+        "Question": "Farmers in the late 19th century were calling for __, which would inflate the currency.",
+        "Answer": "Bimetallism"
+      },
+      {
+        "Question": "The big event that put Eugene Debs into prison and which led to his eventually embracing Socialism was __.",
+        "Answer": "The Pullman Strike"
+      },
+      {
+        "Question": "The issue of bimetallism was portrayed in The Wizard of Oz novel using __.",
+        "Answer": "Dorothy's silver slippers walking down the Yellow Brick Road"
+      },
+      {
+        "Question": "The government passed the __, which attempted unsuccessfully to regulate big businesses.",
+        "Answer": "Sherman Anti-Trust Act"
+      },
+      {
+        "Question": "The presidential candidate who traveled to 28 states and over 13,000 miles in a whistlestop campaign by train was __.",
+        "Answer": "William Jennings Bryan"
+      }
+    ],
+    "Chapter 21":[
+      {
+        "Question": "Turner's Thesis said that the frontier had brought all of the following things EXCEPT:",
+        "Answer": "Manifest Destiny"
+      },
+      {
+        "Question": "Those people who wanted to have Hawaii annexed into the U.S. included __.",
+        "Answer": "American sugar planters in Hawaii"
+      },
+      {
+        "Question": "One thing that was NOT a reason that many Americans wanted to get involved in what would become the Spanish-American War was _.",
+        "Answer": "Spain's attempt to give the Cubans autonomy, but not independence"
+      },
+      {
+        "Question": "The author of The Influence of Seapower Upon History was __.",
+        "Answer": "Alfred Thayer Mahan"
+      },
+      {
+        "Question": "The Teller Amendment __.",
+        "Answer": "declared that the U.S. had no economic or territorial interest in Cuba"
+      },
+      {
+        "Question": "The U.S. decided to keep the Philippines, which prompted a war that was led on the Filipino side by __.",
+        "Answer": "Emilio Aguinaldo"
+      },
+      {
+        "Question": "What country became an American Territory at the end of the Spanish American War, and its people later became American citizens?",
+        "Answer": "Puerto Rico"
+      },
+      {
+        "Question": "The Platt Amendment __.",
+        "Answer": "gave the U.S. the right to intervene in Cuba"
+      },
+      {
+        "Question": "The Open Door Policy__.",
+        "Answer": "declared China open to trade from all nations"
+      },
+      {
+        "Question": "The 9th and 10th U.S. Cavalry regiments were __ regiments during the Spanish American War who won the Battle of San Juan Hill but were not recognized for it.",
+        "Answer": "African American"
+      }
     ]
   },
   "revel":{
@@ -99,6 +267,96 @@ export const usHist1302Data = {
       "Question": "In contrast to baby boomers, Millennials and Generation X get most of their news from __________.",
       "Answer": "Facebook"
     }],
+    "Chapter 17": [
+      {
+        "Question": "Which of the following achieved statehood by the end of the nineteenth century?",
+        "Answer": "Wyoming"
+      },
+      {
+        "Question": "America’s westward expansion in the last three decades of the nineteenth century had the most negative effect on which group?",
+        "Answer": "Native Americans"
+      },
+      {
+        "Question": "Horace Greeley told New York City’s unemployed: “If you strike off into the broad, free West, and make yourself a farm from Uncle Sam’s generous domain, you will crowd nobody, starve nobody, and neither you nor your children need evermore beg for something to do.” Which of the following acts could Greeley cite to support his statement?",
+        "Answer": "Homestead Act of 1862"
+      },
+      {
+        "Question": "Which of the following describes the geographic features found in the Great Plains?",
+        "Answer": "treeless, nearly flat, land"
+      },
+      {
+        "Question": "By 1840, the line of white settlement had reached the edge of the __________.",
+        "Answer": "Missouri timber country"
+      },
+      {
+        "Question": "Which of the following made settling the Great Plains difficult?",
+        "Answer": "little rainfall"
+      },
+      {
+        "Question": "Which of the following was a Plains tribe?",
+        "Answer": "the Blackfoot"
+      },
+      {
+        "Question": "Which of the following describes the culture of the Plains Indians?",
+        "Answer": "They were nomadic."
+      },
+      {
+        "Question": "Before the Civil War, the land __________ was designated as “Indian Country” by the U.S. government.",
+        "Answer": "west of the Mississippi"
+      },
+      {
+        "Question": "According to the prophet Wovoka, the Ghost Dances would lead to __________.",
+        "Answer": "unity among Native Americans"
+      },
+      {
+        "Question": "Which of the following was the Plains Indians’ chief resource and the basis for their unique way of life?",
+        "Answer": "the buffalo"
+      },
+      {
+        "Question": "What was the westernmost endpoint of the Overland Trail?",
+        "Answer": "the Pacific coast"
+      },
+      {
+        "Question": "Which of the following marked the end of the first leg of the Overland Trail?",
+        "Answer": "Fort Kearney"
+      },
+      {
+        "Question": "The migration of which group in the second half of the nineteenth century suggests that the settlement of the West was more than a simple “westward” movement?",
+        "Answer": "Mexicans moving north"
+      },
+      {
+        "Question": "Which of the following acts offered 160 acres of land to anyone who would pay a $10 registration fee and pledge to live on the land and cultivate it for five years?",
+        "Answer": "Homestead Act of 1862"
+      },
+      {
+        "Question": "Which of the following was used in placer mining?",
+        "Answer": "a washing pan"
+      },
+      {
+        "Question": "In the first 15 years of the twenty-first century, which state drew a lot of capital investment during the boom in the oil industry?",
+        "Answer": "North Dakota"
+      },
+      {
+        "Question": "Which of the following states was the last Indian territory to be opened to white settlement?",
+        "Answer": "Oklahoma"
+      },
+      {
+        "Question": "A farmer in the American West in the late nineteenth century would most likely be a part of the __________.",
+        "Answer": "National Grange of the Patrons of Husbandry"
+      },
+      {
+        "Question": "Which part of the American Southwest produced the most agricultural goods in 1890?",
+        "Answer": "California"
+      },
+      {
+        "Question": "Which city linked the economy of the West to the economy of the Northeast in the second half of the nineteenth century?",
+        "Answer": "Chicago"
+      },
+      {
+        "Question": "In the second half of the nineteenth century, the West had a primarily __________ economy.",
+        "Answer": "agricultural"
+      }
+    ],
     "Chapter 18": [{
       "Question": "By __________, U.S. manufacturing surpassed that of Britain, France, and Germany combined.",
       "Answer": 1900

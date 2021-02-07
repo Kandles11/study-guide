@@ -1,9 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Work+Sans:wght@400;500;600;700&display=swap');
+
+
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #e0e0e0;
+  color:#2f2f2f;
+}
+
+h1 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: bold;
+}
+
+h2 {
+  margin: 10px;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: bold;
+}
+
+h3 {
+  margin: 10px;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: bold;
 }
 
 code {
@@ -14,7 +34,10 @@ code {
 table {
   border-collapse: collapse;
   width: 100%;
-  border: 1px solid black;
+  box-shadow:  20px 20px 60px #bebebe,
+             -20px -20px 60px #ffffff;
+  border-radius: 18px;
+
 }
 
 th {
@@ -29,30 +52,30 @@ td {
 tr:nth-child(odd) {background-color: #f2f2f2;}
 
 a {
-  border-radius: 50px;
+  border-radius: 18px;
   background: #e0e0e0;
   box-shadow:  20px 20px 60px #bebebe,
              -20px -20px 60px #ffffff;
+  border: #FFF;
 	display:inline-block;
 	cursor:pointer;
 	color:#2f2f2f;
 	font-size:15px;
 	font-weight:bold;
-  padding:15px 24px;
+  padding:20px 25px;
 	text-decoration:none;
      margin: 10px;
 }
 a:hover {
   transition:all .75s ease;
-
-  border-radius: 50px;
-background: linear-gradient(145deg, #cacaca, #f0f0f0);
-box-shadow:  14px 14px 29px #bebebe,
+  border-radius: 18px;
+  background: linear-gradient(145deg, #cacaca, #f0f0f0);
+  box-shadow:  14px 14px 29px #bebebe,
              -14px -14px 29px #ffffff;
 }
 
 a:active {
-  border-radius: 50px;
+  border-radius: 18px;
   background: #e0e0e0;
   box-shadow: inset 14px 14px 29px #bebebe,
             inset -14px -14px 29px #ffffff;
@@ -65,4 +88,31 @@ a:active {
 
 .flexChild {
     flex: 1;
+    border-radius: 18px;
+    background: #e0e0e0;
+    box-shadow:  20px 20px 60px #bebebe,
+               -20px -20px 60px #ffffff;
+   margin: 8px;
+}
+
+.gridParent {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+@media only screen and (max-width: 480px) {
+  h1 {
+    text-align: center;
+  }
+  h2 {
+    text-align: center;
+  }
+  h3 {
+    text-align: center;
+  }
+
+  .gridParent {
+    grid-template-columns: 1fr 1fr;
+  }
 }

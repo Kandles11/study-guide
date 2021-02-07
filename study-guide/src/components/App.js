@@ -7,8 +7,12 @@ function App() {
       
       <body> 
         <h1>Welcome to Study Guide 2.0!</h1>
-        <h2>still under construction!</h2>
-        <a href="/usHist1302">US History 1302</a>
+        <div class="gridParent">
+          <div class="flexChild">
+            <h2>History:</h2>
+            <a href="/usHist1302">US History 1302 🇺🇸</a>
+          </div>
+        </div>
       </body>
     </div>
   );
