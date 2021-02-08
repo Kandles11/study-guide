@@ -101,6 +101,72 @@ a:active {
 
 }
 
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color:#262736
+  }
+  a {
+    background: #262736;
+    box-shadow:  20px 20px 60px #20212e,
+                 -20px -20px 60px #2c2d3e;
+    color: white;
+  }
+
+  tr:nth-child(odd) {background-color: #2e2f42;}
+
+  th {
+    background-color:#2e2f42;border-color:#ccc;border-style:solid;border-width:0px;color:white;padding:10px 5px;
+  }
+
+  th:first-child {
+    border-top-left-radius: 10px;
+  }
+
+  th:last-child {
+    border-top-right-radius: 10px;
+  }
+
+
+  a:hover{
+    background: linear-gradient(145deg, #222331, #292a3a);
+    box-shadow:  20px 20px 60px #20212e,
+             -20px -20px 60px #2c2d3e;
+  }
+
+  a:active{
+    background: #262736;
+box-shadow: inset 20px 20px 60px #20212e,
+            inset -20px -20px 60px #2c2d3e;
+  }
+    
+  .flexChild {
+    background: #262736;
+    box-shadow:  20px 20px 60px #20212e,
+                -20px -20px 60px #2c2d3e;
+    color: white;
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    background: #1a1b25;
+    box-shadow:  20px 20px 60px #20212e,
+                 -20px -20px 60px #2c2d3e;
+    color: white;
+  
+  }
+
+  h1 {
+    color:white;
+  }
+  h2 {
+    color:white;
+  }
+  h3 {
+    color:white;
+  }
+}
+
 @media only screen and (max-width: 480px) {
   h1 {
     text-align: center;
