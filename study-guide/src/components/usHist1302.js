@@ -3,6 +3,7 @@ import '../index.css';
 import {Helmet} from "react-helmet";
 import { usHist1302Data } from './data/usHist1302Data.js'
 
+
 import Table from './Table'
 
 
@@ -15,6 +16,7 @@ function usHist1302() {
       </Helmet>
       <body> 
         <h1>US History 1302 🇺🇸</h1>
+        <a href="../" class="backButton">Back..</a>
         <div class="flexParent">
         <div class="flexChild">
             <h2>Voiceovers:</h2>
