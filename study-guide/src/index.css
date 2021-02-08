@@ -100,8 +100,8 @@ a:active {
   grid-template-columns: 1fr 1fr 1fr;
 }
 
-.backButton {
-  padding: 15px 25px;
+.smallButton {
+  padding: 10px 25px;
 }
 
 @media (prefers-color-scheme: dark) {

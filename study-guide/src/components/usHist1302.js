@@ -1,12 +1,9 @@
-import react from 'react';
 import '../index.css';
 import {Helmet} from "react-helmet";
 import { usHist1302Data } from './data/usHist1302Data.js'
 
-
-import Table from './Table'
-
-
+import Section from './Section'
+import Back from './Back'
 
 function usHist1302() {
   return (
@@ -16,7 +13,7 @@ function usHist1302() {
       </Helmet>
       <body> 
         <h1>US History 1302 🇺🇸</h1>
-        <a href="../" class="backButton">Back..</a>
+        <Back/>
         <div class="flexParent">
         <div class="flexChild">
             <h2>Voiceovers:</h2>
@@ -39,31 +36,19 @@ function usHist1302() {
         </div>
         </div>
         <h2>Voice-Overs</h2>
-          <h3 id="Chapter32VO">Chapter 32 VO</h3>
-          <Table json={usHist1302Data.voiceovers['Chapter 32']} />
-          <h3 id="Chapter17VO">Chapter 17 VO</h3>
-          <Table json={usHist1302Data.voiceovers['Chapter 17']} />
-          <h3 id="Chapter18VO">Chapter 18 VO</h3>
-          <Table json={usHist1302Data.voiceovers['Chapter 18']} />
-          <h3 id="Chapter19VO">Chapter 19 VO</h3>
-          <Table json={usHist1302Data.voiceovers['Chapter 19']} />
-          <h3 id="Chapter20VO">Chapter 20 VO</h3>
-          <Table json={usHist1302Data.voiceovers['Chapter 20']} />
-          <h3 id="Chapter21VO">Chapter 21 VO</h3>
-          <Table json={usHist1302Data.voiceovers['Chapter 21']} />
+          <Section jsonProp={usHist1302Data.voiceovers['Chapter 32']} idProp="Chapter32VO" titleProp="Chapter 32 VO"></Section>
+          <Section jsonProp={usHist1302Data.voiceovers['Chapter 17']} idProp="Chapter17VO" titleProp="Chapter 17 VO"></Section>
+          <Section jsonProp={usHist1302Data.voiceovers['Chapter 18']} idProp="Chapter18VO" titleProp="Chapter 18 VO"></Section>
+          <Section jsonProp={usHist1302Data.voiceovers['Chapter 19']} idProp="Chapter19VO" titleProp="Chapter 19 VO"></Section>
+          <Section jsonProp={usHist1302Data.voiceovers['Chapter 20']} idProp="Chapter20VO" titleProp="Chapter 20 VO"></Section>
+          <Section jsonProp={usHist1302Data.voiceovers['Chapter 21']} idProp="Chapter21VO" titleProp="Chapter 21 VO"></Section>
         <h2>Revel</h2>
-          <h3 id="Chapter32RE">Chapter 32 RE</h3>
-          <Table json={usHist1302Data.revel['Chapter 32']} />
-          <h3 id="Chapter17RE">Chapter 17 RE</h3>
-          <Table json={usHist1302Data.revel['Chapter 17']} />
-          <h3 id="Chapter18RE">Chapter 18 RE</h3>
-          <Table json={usHist1302Data.revel['Chapter 18']} />
-          <h3 id="Chapter19RE">Chapter 19 RE</h3>
-          <Table json={usHist1302Data.revel['Chapter 19']} />
-          <h3 id="Chapter20RE">Chapter 20 RE</h3>
-          <Table json={usHist1302Data.revel['Chapter 20']} />
-          <h3 id="Chapter21RE">Chapter 21 RE</h3>
-          <Table json={usHist1302Data.revel['Chapter 21']} />
+          <Section jsonProp={usHist1302Data.revel['Chapter 32']} idProp="Chapter32RE" titleProp="Chapter 32 RE"></Section>
+          <Section jsonProp={usHist1302Data.revel['Chapter 17']} idProp="Chapter17RE" titleProp="Chapter 17 RE"></Section>
+          <Section jsonProp={usHist1302Data.revel['Chapter 18']} idProp="Chapter18RE" titleProp="Chapter 18 RE"></Section>
+          <Section jsonProp={usHist1302Data.revel['Chapter 19']} idProp="Chapter19RE" titleProp="Chapter 19 RE"></Section>
+          <Section jsonProp={usHist1302Data.revel['Chapter 20']} idProp="Chapter20RE" titleProp="Chapter 20 RE"></Section>
+          <Section jsonProp={usHist1302Data.revel['Chapter 21']} idProp="Chapter21RE" titleProp="Chapter 21 RE"></Section>
       </body>
     </div>
   );

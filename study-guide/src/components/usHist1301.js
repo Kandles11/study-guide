@@ -1,8 +1,8 @@
-import react from 'react';
 import '../index.css'
 import { usHist1301Data } from './data/usHist1301Data.js'
 
-import Table from './Table'
+import Back from './Back'
+import Section from './Section'
 
 
 
@@ -11,6 +11,7 @@ function usHist1301() {
     <div className="usHist1301">
       <body> 
         <h1>US History 1301 🇺🇸</h1>
+        <Back/>
         <div class="flexParent">
         <div class="flexChild">
             <h2>Revel:</h2>
@@ -30,32 +31,19 @@ function usHist1301() {
         </div>
         </div>
         <h2>Revel</h2>
-          <h3 id="Chapter1RE">Chapter 1 RE</h3>
-          <Table json={usHist1301Data.revel['Chapter 1']} />
-          <h3 id="Chapter2RE">Chapter 2 RE</h3>
-          <Table json={usHist1301Data.revel['Chapter 2']} />
-          <h3 id="Chapter6RE">Chapter 6 RE</h3>
-          <Table json={usHist1301Data.revel['Chapter 6']} />
-          <h3 id="Chapter7RE">Chapter 7 RE</h3>
-          <Table json={usHist1301Data.revel['Chapter 7']} />
-          <h3 id="Chapter8RE">Chapter 8 RE</h3>
-          <Table json={usHist1301Data.revel['Chapter 8']} />
-          <h3 id="Chapter9RE">Chapter 9 RE</h3>
-          <Table json={usHist1301Data.revel['Chapter 9']} />
-          <h3 id="Chapter10RE">Chapter 10 RE</h3>
-          <Table json={usHist1301Data.revel['Chapter 10']} />
-          <h3 id="Chapter11RE">Chapter 11 RE</h3>
-          <Table json={usHist1301Data.revel['Chapter 11']} />
-          <h3 id="Chapter12RE">Chapter 12 RE</h3>
-          <Table json={usHist1301Data.revel['Chapter 12']} />
-          <h3 id="Chapter13RE">Chapter 13 RE</h3>
-          <Table json={usHist1301Data.revel['Chapter 13']} />
-          <h3 id="Chapter14RE">Chapter 14 RE</h3>
-          <Table json={usHist1301Data.revel['Chapter 14']} />
-          <h3 id="Chapter15RE">Chapter 15 RE</h3>
-          <Table json={usHist1301Data.revel['Chapter 15']} />
-          <h3 id="Chapter16RE">Chapter 16 RE</h3>
-          <Table json={usHist1301Data.revel['Chapter 16']} />
+          <Section jsonProp={usHist1301Data.revel['Chapter 1']} idProp="Chapter1RE" titleProp="Chapter 1 RE"></Section>
+          <Section jsonProp={usHist1301Data.revel['Chapter 2']} idProp="Chapter2RE" titleProp="Chapter 2 RE"></Section>
+          <Section jsonProp={usHist1301Data.revel['Chapter 6']} idProp="Chapter6RE" titleProp="Chapter 6 RE"></Section>
+          <Section jsonProp={usHist1301Data.revel['Chapter 7']} idProp="Chapter7RE" titleProp="Chapter 7 RE"></Section>
+          <Section jsonProp={usHist1301Data.revel['Chapter 8']} idProp="Chapter8RE" titleProp="Chapter 8 RE"></Section>
+          <Section jsonProp={usHist1301Data.revel['Chapter 9']} idProp="Chapter9RE" titleProp="Chapter 9 RE"></Section>
+          <Section jsonProp={usHist1301Data.revel['Chapter 10']} idProp="Chapter10RE" titleProp="Chapter 10 RE"></Section>
+          <Section jsonProp={usHist1301Data.revel['Chapter 11']} idProp="Chapter11RE" titleProp="Chapter 11 RE"></Section>
+          <Section jsonProp={usHist1301Data.revel['Chapter 12']} idProp="Chapter12RE" titleProp="Chapter 12 RE"></Section>
+          <Section jsonProp={usHist1301Data.revel['Chapter 13']} idProp="Chapter13RE" titleProp="Chapter 13 RE"></Section>
+          <Section jsonProp={usHist1301Data.revel['Chapter 14']} idProp="Chapter14RE" titleProp="Chapter 14 RE"></Section>
+          <Section jsonProp={usHist1301Data.revel['Chapter 15']} idProp="Chapter15RE" titleProp="Chapter 15 RE"></Section>
+          <Section jsonProp={usHist1301Data.revel['Chapter 16']} idProp="Chapter16RE" titleProp="Chapter 16 RE"></Section>
       </body>
     </div>
   );

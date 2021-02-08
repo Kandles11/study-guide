@@ -3,6 +3,7 @@ import '../index.css'
 import { usGov2305Data } from './data/usGov2305Data.js'
 
 import Table from './Table'
+import Back from './Back'
 
 
 
@@ -11,7 +12,7 @@ function usGov2305() {
     <div className="usGov2305">
       <body> 
         <h1>US Government-2305 👩‍⚖️</h1>
-        <a href="../" class="backButton">Back..</a>
+        <Back/>
         <div class="flexParent">
         <div class="flexChild">
             <h2>Mindtap:</h2>

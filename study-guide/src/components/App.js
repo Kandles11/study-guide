@@ -1,10 +1,16 @@
 import React from 'react';
+import PWAPrompt from 'react-ios-pwa-prompt'
+
 
 
 function App() {
   return (
     <div className="App">
-      
+        <PWAPrompt
+        timesToShow={1}
+        permanentlyHideOnDismiss={true}
+        debug={false}
+      />
       <body> 
         <h1>Welcome to Study Guide 2.0!</h1>
         <div class="gridParent">
