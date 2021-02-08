@@ -21,13 +21,13 @@ function usGov2305() {
         </div>
         </div>
         <h2>Mindtap</h2>
-          <h3 id="Chapter1MI">Chapter 1 RE</h3>
+          <h3 id="Chapter1MI">Chapter 1 MI</h3>
           <Table json={usGov2305Data.mindtap['Chapter 1']} />
-          <h3 id="Chapter2MI">Chapter 2 RE</h3>
+          <h3 id="Chapter2MI">Chapter 2 MI</h3>
           <Table json={usGov2305Data.mindtap['Chapter 2']} />
-          <h3 id="Chapter6MI">Chapter 3 RE</h3>
+          <h3 id="Chapter3MI">Chapter 3 MI</h3>
           <Table json={usGov2305Data.mindtap['Chapter 3']} />
-          <h3 id="Chapter7MI">Chapter 4 RE</h3>
+          <h3 id="Chapter4MI">Chapter 4 MI</h3>
           <Table json={usGov2305Data.mindtap['Chapter 4']} />
           
       </body>
