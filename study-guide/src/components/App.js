@@ -13,6 +13,10 @@ function App() {
             <a href="/usHist1301">US History 1301 🇺🇸</a>
             <a href="/usHist1302">US History 1302 🇺🇸</a>
           </div>
+          <div class="flexChild">
+            <h2>Government:</h2>
+            <a href="/usGov2305">US Government 2305 👩‍⚖️</a>
+          </div>
         </div>
       </body>
     </div>
