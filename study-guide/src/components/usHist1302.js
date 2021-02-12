@@ -1,9 +1,10 @@
 import '../index.css';
 import {Helmet} from "react-helmet";
-import { usHist1302Data } from './data/usHist1302Data.js'
+import { usHist1302Data } from '../data/usHist1302Data.js'
 
 import Section from './Section'
 import Back from './Back'
+import Footer from './Footer'
 
 function usHist1302() {
   return (
@@ -11,7 +12,8 @@ function usHist1302() {
       <Helmet>
         <title>US Hist-1302</title>
       </Helmet>
-      <body> 
+      <body>
+        <main>
         <h1>US History 1302 🇺🇸</h1>
         <Back/>
         <div class="flexParent">
@@ -49,6 +51,9 @@ function usHist1302() {
           <Section jsonProp={usHist1302Data.revel['Chapter 19']} idProp="Chapter19RE" titleProp="Chapter 19 RE"></Section>
           <Section jsonProp={usHist1302Data.revel['Chapter 20']} idProp="Chapter20RE" titleProp="Chapter 20 RE"></Section>
           <Section jsonProp={usHist1302Data.revel['Chapter 21']} idProp="Chapter21RE" titleProp="Chapter 21 RE"></Section>
+        </main>
+        <div class="push"/>
+        <Footer/>
       </body>
     </div>
   );

@@ -1,6 +1,6 @@
 import react from 'react';
 import '../index.css'
-import { usGov2305Data } from './data/usGov2305Data.js'
+import { usGov2305Data } from '../data/usGov2305Data.js'
 
 import Table from './Table'
 import Back from './Back'

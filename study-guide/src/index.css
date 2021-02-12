@@ -1,4 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Work+Sans:wght@400;500;600;700&display=swap');
+@font-face {
+  font-family: 'Gardenia-Regular';
+  src: url('./assets/fonts/gardenia-regular-webfont.woff2') format('woff2'),
+       url('./assets/fonts/gardenia-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
 
 
 body {
@@ -7,6 +15,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #e0e0e0;
   color:#2f2f2f;
+  height: 100%;
 }
 
 h1 {
@@ -38,6 +47,12 @@ table {
              -20px -20px 60px #ffffff;
   border-radius: 18px;
 
+}
+
+svg {
+  display: block;
+  margin: auto;
+  padding: 8px;
 }
 
 th {
@@ -104,6 +119,17 @@ a:active {
   padding: 10px 25px;
 }
 
+main{
+  min-height: calc(100vh - 70px);
+}
+
+footer{
+  margin-top:15px;
+  height:50px;
+  background-color: #c4c4c4;
+}
+
+
 
 @media (prefers-color-scheme: dark) {
   body {
@@ -168,6 +194,14 @@ box-shadow: inset 20px 20px 60px #20212e,
   }
   h3 {
     color:white;
+  }
+
+  footer {
+    background-color: #191924;
+  }
+
+  svg{
+    fill:white;
   }
 }
 
