@@ -1,5 +1,5 @@
 import '../index.css'
-import { usHist1301Data } from './data/usHist1301Data.js'
+import { usHist1301Data } from '../data/usHist1301Data.js'
 
 import Back from './Back'
 import Section from './Section'
