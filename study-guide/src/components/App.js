@@ -14,7 +14,7 @@ function App() {
       />
       <body> 
         <main>
-          <h1>Welcome to Study Guide 2.0!</h1>
+          <h1>Welcome to Mason's Study Guide!</h1>
           <div class="gridParent">
             <div class="flexChild">
               <h2>History:</h2>
@@ -24,6 +24,10 @@ function App() {
             <div class="flexChild">
               <h2>Government:</h2>
               <a href="/usGov2305">US Government 2305 👩‍⚖️</a>
+            </div>
+            <div class="flexChild">
+              <h2>Science:</h2>
+              <a href="/apChemistry">AP Chemistry 🧪</a>
             </div>
           </div>
         </main>
