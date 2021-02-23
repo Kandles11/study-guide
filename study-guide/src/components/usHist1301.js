@@ -1,17 +1,15 @@
 import '../index.css'
 import { usHist1301Data } from '../data/usHist1301Data.js'
 
-import Back from './Back'
 import Section from './Section'
-
+import Header from './Header'
 
 
 function usHist1301() {
   return (
     <div className="usHist1301">
       <body> 
-        <h1>US History 1301 🇺🇸</h1>
-        <Back/>
+        <Header text="US History 1301 🇺🇸" />
         <div class="flexParent">
         <div class="flexChild">
             <h2>Revel:</h2>

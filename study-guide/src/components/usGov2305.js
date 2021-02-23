@@ -3,7 +3,7 @@ import '../index.css'
 import { usGov2305Data } from '../data/usGov2305Data.js'
 
 import Table from './Table'
-import Back from './Back'
+import Header from './Header'
 
 
 
@@ -11,8 +11,7 @@ function usGov2305() {
   return (
     <div className="usGov2305">
       <body> 
-        <h1>US Government-2305 👩‍⚖️</h1>
-        <Back/>
+        <Header text="Government-2305 👩‍⚖️" />
         <div class="flexParent">
         <div class="flexChild">
             <h2>Mindtap:</h2>

@@ -3,7 +3,7 @@ import {Helmet} from "react-helmet";
 import { usHist1302Data } from '../data/usHist1302Data.js'
 
 import Section from './Section'
-import Back from './Back'
+import Header from './Header'
 import Footer from './Footer'
 
 function usHist1302() {
@@ -14,8 +14,7 @@ function usHist1302() {
       </Helmet>
       <body>
         <main>
-        <h1>US History 1302 🇺🇸</h1>
-        <Back/>
+        <Header text="US History 1301 🇺🇸" />
         <div class="flexParent">
         <div class="flexChild">
             <h2>Voiceovers:</h2>
