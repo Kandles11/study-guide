@@ -3,12 +3,14 @@ import { usHist1301Data } from '../data/usHist1301Data.js'
 
 import Section from './Section'
 import Header from './Header'
+import Footer from './Footer'
 
 
 function usHist1301() {
   return (
     <div className="usHist1301">
       <body> 
+        <main>
         <Header text="US History 1301 🇺🇸" />
         <div class="flexParent">
         <div class="flexChild">
@@ -42,6 +44,9 @@ function usHist1301() {
           <Section jsonProp={usHist1301Data.revel['Chapter 14']} idProp="Chapter14RE" titleProp="Chapter 14 RE"></Section>
           <Section jsonProp={usHist1301Data.revel['Chapter 15']} idProp="Chapter15RE" titleProp="Chapter 15 RE"></Section>
           <Section jsonProp={usHist1301Data.revel['Chapter 16']} idProp="Chapter16RE" titleProp="Chapter 16 RE"></Section>
+          </main>
+          <div class="push"/>
+          <Footer/>
       </body>
     </div>
   );
