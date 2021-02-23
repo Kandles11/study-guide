@@ -17,6 +17,9 @@ function usHist1301() {
             <h2>Revel:</h2>
             <a href="#Chapter1RE">Chapter 1</a>
             <a href="#Chapter2RE">Chapter 2</a>
+            <a href="#Chapter3RE">Chapter 3</a>
+            <a href="#Chapter4RE">Chapter 4</a>
+            <a href="#Chapter5RE">Chapter 5</a>
             <a href="#Chapter6RE">Chapter 6</a>
             <a href="#Chapter7RE">Chapter 7</a>
             <a href="#Chapter8RE">Chapter 8</a>
@@ -33,6 +36,9 @@ function usHist1301() {
         <h2>Revel</h2>
           <Section jsonProp={usHist1301Data.revel['Chapter 1']} idProp="Chapter1RE" titleProp="Chapter 1 RE"></Section>
           <Section jsonProp={usHist1301Data.revel['Chapter 2']} idProp="Chapter2RE" titleProp="Chapter 2 RE"></Section>
+          <Section jsonProp={usHist1301Data.revel['Chapter 3']} idProp="Chapter3RE" titleProp="Chapter 3 RE"></Section>
+          <Section jsonProp={usHist1301Data.revel['Chapter 4']} idProp="Chapter4RE" titleProp="Chapter 4 RE"></Section>
+          <Section jsonProp={usHist1301Data.revel['Chapter 5']} idProp="Chapter5RE" titleProp="Chapter 5 RE"></Section>
           <Section jsonProp={usHist1301Data.revel['Chapter 6']} idProp="Chapter6RE" titleProp="Chapter 6 RE"></Section>
           <Section jsonProp={usHist1301Data.revel['Chapter 7']} idProp="Chapter7RE" titleProp="Chapter 7 RE"></Section>
           <Section jsonProp={usHist1301Data.revel['Chapter 8']} idProp="Chapter8RE" titleProp="Chapter 8 RE"></Section>

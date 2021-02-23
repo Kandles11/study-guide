@@ -3,13 +3,9 @@ import '../index.css'
 import { pdfjs } from 'react-pdf';
 import { Document, Page } from 'react-pdf';
 
-
-
 import Table from './Table'
 import Header from './Header'
 import Footer from './Footer'
-
-
 
 function apChemistry() {
     pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
