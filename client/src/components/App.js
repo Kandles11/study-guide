@@ -1,7 +1,7 @@
 import React from 'react';
 import PWAPrompt from 'react-ios-pwa-prompt'
 import Footer from './Footer'
-import { push as Menu } from 'react-burger-menu'
+import { slide as Menu } from 'react-burger-menu'
 
 
 
@@ -9,18 +9,20 @@ import { push as Menu } from 'react-burger-menu'
 function App() {
   return (
     <div className="App">
-        <PWAPrompt
+      <Menu right>
+        <h2 style={{color:"red"}}>WARNING! SIDEBAR IS NOT WORKING</h2>
+        <h2>Actions</h2>
+        <p>Dark/Light</p>
+        <p>Change Font</p>
+        <p></p>
+      </Menu>
+      <PWAPrompt
         timesToShow={1}
         permanentlyHideOnDismiss={true}
         debug={false}
       />
-      
       <body>
-        <div id="outer-container">
-        <Menu pageWrapId={ "main-page-wrapper" } outerContainerId={ "outer-container" }>
-            <a href="/usHist1301">US History 1301 🇺🇸</a>
-        </Menu>
-        <main id="main-page-wrapper">
+        <main>
           <h1>Welcome to Mason's Study Guide!</h1>
           <div class="gridParent">
             <div class="flexChild">
@@ -39,7 +41,6 @@ function App() {
           </div>
         </main>
         <Footer/>
-        </div>
       </body>
     </div>
   );

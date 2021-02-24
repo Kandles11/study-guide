@@ -150,13 +150,13 @@ footer{
   position: fixed;
   width: 36px;
   height: 30px;
-  left: 36px;
+  right: 36px;
   top: 36px;
 }
 
 /* Color/shape of burger icon bars */
 .bm-burger-bars {
-  background: #373a47;
+  background: var(--text-color);
 }
 
 /* Color/shape of burger icon bars on hover*/
@@ -248,6 +248,11 @@ Note: Beware of modifying this element as it can break the animations - you shou
   svg{
     fill:white;
   }
+
+  /* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: white;
+}
 }
 
 @media only screen and (max-width: 640px) {

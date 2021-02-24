@@ -1,6 +1,8 @@
 import '../index.css';
 import {Helmet} from "react-helmet";
 import { usHist1302Data } from '../data/usHist1302Data.js'
+import { slide as Menu } from 'react-burger-menu'
+
 
 import Section from './Section'
 import Header from './Header'
@@ -9,6 +11,9 @@ import Footer from './Footer'
 function usHist1302() {
   return (
     <div className="TestPage">
+      <Menu right>
+        <h2>Actions</h2>
+      </Menu>
       <Helmet>
         <title>US Hist-1302</title>
       </Helmet>
