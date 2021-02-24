@@ -14,7 +14,7 @@ function usHist1302() {
       </Helmet>
       <body>
         <main>
-        <Header text="US History 1301 🇺🇸" />
+        <Header text="US History 1302 🇺🇸" />
         <div class="flexParent">
         <div class="flexChild">
             <h2>Voiceovers:</h2>
