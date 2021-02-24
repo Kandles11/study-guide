@@ -1,6 +1,5 @@
 import '../index.css'
 import { pdfjs } from 'react-pdf';
-import { Document } from 'react-pdf';
 
 import Header from './Header'
 import Footer from './Footer'
@@ -21,13 +20,8 @@ function apChemistry() {
         </div>
         </div>
         <h2>PDF's</h2>
-        <Document
-        options={{
-                cMapUrl: `//cdn.jsdelivr.net/npm/pdfjs-dist@${pdfjs.version}/cmaps/`,
-    cMapPacked: true,
-        }}
-        file="http://s23.q4cdn.com/479936946/files/doc_downloads/test.pdf"      >
-      </Document>
+        <h3>well this is embarrassing 😬</h3>
+        <p>mason hasn't finished this area of the website, so just turn around and go back pretty please. thanks 💕</p>
         </main>
         <div class="push"/>
         <Footer />

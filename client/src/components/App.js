@@ -23,18 +23,11 @@ function App() {
             </div>
             <div class="flexChild">
               <h2>Government:</h2>
-              <a href="#">US Government 2304 👩‍⚖️</a>
               <a href="/usGov2305">US Government 2305 👩‍⚖️</a>
             </div>
             <div class="flexChild">
               <h2>Science:</h2>
-              <a href="#">Pre-AP Chemistry ⚗️</a>
               <a href="/apChemistry">AP Chemistry 🧪</a>
-            </div>
-            <div class="flexChild">
-              <h2>Math:</h2>
-              <a href="#">Math Uno</a>
-              <a href="/apChemistry">Math Dos</a>
             </div>
           </div>
         </main>
