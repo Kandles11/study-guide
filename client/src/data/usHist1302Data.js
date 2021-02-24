@@ -211,6 +211,90 @@ export const usHist1302Data = {
         "Question": "The 9th and 10th U.S. Cavalry regiments were __ regiments during the Spanish American War who won the Battle of San Juan Hill but were not recognized for it.",
         "Answer": "African American"
       }
+    ],
+    "Chapter 22":[
+      {
+        "Question": "The group most involved in effecting progressive reform was the __.",
+        "Answer": "Middle Class"
+      },
+      {
+        "Question": "Which of the following was NOT a characteristic of progressivism?",
+        "Answer": "Radicalism"
+      },
+      {
+        "Question": "The Shame of the Cities, by __, found that many cities were corrupt and poorly run, and led to a call for municipal reform.",
+        "Answer": "Lincoln Steffens"
+      },
+      {
+        "Question": "The 17th Amendment was eventually passed after __ wrote about politicians being given kickbacks from big corporations.",
+        "Answer": "David Philips"
+      },
+      {
+        "Question": "The Galveston Plan involved __.",
+        "Answer": "electing a city council and hiring a nonpolitical city manager."
+      },
+      {
+        "Question": "Upton Sinclair was hoping to __.",
+        "Answer": "highlight the problems with capitalism and encourage socialist reform"
+      },
+      {
+        "Question": "The Triangle Shirtwaist Fire __.",
+        "Answer": "led to new workplace safety laws being passed."
+      },
+      {
+        "Question": "The _ was formed jointly by African Americans and white progressives, and became the most important civil rights organization in the country, attempting change by going through the court system.",
+        "Answer": "NAACP"
+      },
+      {
+        "Question": "Many progressives were reluctant to support the _.",
+        "Answer": "Feminist Movement"
+      },
+      {
+        "Question": "Boxer Jack Johnson was wrongly indicted under the _.",
+        "Answer": "Mann Act"
+      }
+    ],
+    "Chapter 23":[
+      {
+        "Question": "The Oregon System included all of the following EXCEPT:",
+        "Answer": "Brains Trust"
+      },
+      {
+        "Question": "The Wisconsin Idea was implemented by _.",
+        "Answer": "Bob LaFollette"
+      },
+      {
+        "Question": "Teddy Roosevelt referred to the presidency as a _, which was the idea that the presidency was a forum for ideas and leadership of the nation.",
+        "Answer": "bully pulpit"
+      },
+      {
+        "Question": "Teddy Roosevelt invited _ to have dinner at the White House, which upset Southern Democrats.",
+        "Answer": "Booker T. Washington"
+      },
+      {
+        "Question": "This President initiated 90 anti-trust suits during his time in office.",
+        "Answer": "Taft"
+      },
+      {
+        "Question": "The _ Act authorized the ICC to set maximum rates that railroads could charge, helping to regulate the railroads at last.",
+        "Answer": "Hepburn Act"
+      },
+      {
+        "Question": "All of the political parties except the __ had a candidate in the 1912 election.",
+        "Answer": "Communists"
+      },
+      {
+        "Question": "The act that restructured the nation's banking and currency system was the _ Act.",
+        "Answer": "Federal Reserve"
+      },
+      {
+        "Question": "The progressive President who was not so progressive in the area of race relations, allowing segregation in federal offices, was _.",
+        "Answer": "Wilson"
+      },
+      {
+        "Question": "The Presidential candidate in 1912 who ran on a campaign called New Freedom was _.",
+        "Answer": "Wilson"
+      }
     ]
   },
   "revel":{
@@ -757,5 +841,6 @@ export const usHist1302Data = {
         "Answer": "Alfred Thayer Mahan"
       }
     ]
+    
   }
 };

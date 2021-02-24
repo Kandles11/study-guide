@@ -2,9 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import {
   BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
 import './index.css';
 
@@ -22,7 +20,10 @@ ReactDOM.render(
       <Route path="/usHist1302" component={usHist1302} />
       <Route path="/usHist1301" component={usHist1301} />
       <Route path="/usGov2305" component={usGov2305} />
-    <Route path="/apChemistry" component={apChemistry} />
+      <Route path="/apChemistry" component={apChemistry} />
+      <Route path="/apChemistry" component={apChemistry} />
+
+
     </div>
   </Router>,
   document.getElementById('root')

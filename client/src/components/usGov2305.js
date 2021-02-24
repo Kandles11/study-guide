@@ -1,4 +1,3 @@
-import react from 'react';
 import '../index.css'
 import { usGov2305Data } from '../data/usGov2305Data.js'
 

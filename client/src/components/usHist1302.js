@@ -24,6 +24,8 @@ function usHist1302() {
             <a href="#Chapter19VO">Chapter 19</a>
             <a href="#Chapter20VO">Chapter 20</a>
             <a href="#Chapter21VO">Chapter 21</a>
+            <a href="#Chapter22VO">Chapter 22</a>
+            <a href="#Chapter23VO">Chapter 23</a>
 
         </div>
         <div class="flexChild">
@@ -43,6 +45,8 @@ function usHist1302() {
           <Section jsonProp={usHist1302Data.voiceovers['Chapter 19']} idProp="Chapter19VO" titleProp="Chapter 19 VO"></Section>
           <Section jsonProp={usHist1302Data.voiceovers['Chapter 20']} idProp="Chapter20VO" titleProp="Chapter 20 VO"></Section>
           <Section jsonProp={usHist1302Data.voiceovers['Chapter 21']} idProp="Chapter21VO" titleProp="Chapter 21 VO"></Section>
+          <Section jsonProp={usHist1302Data.voiceovers['Chapter 22']} idProp="Chapter22VO" titleProp="Chapter 22 VO"></Section>
+          <Section jsonProp={usHist1302Data.voiceovers['Chapter 23']} idProp="Chapter23VO" titleProp="Chapter 23 VO"></Section>
         <h2>Revel</h2>
           <Section jsonProp={usHist1302Data.revel['Chapter 32']} idProp="Chapter32RE" titleProp="Chapter 32 RE"></Section>
           <Section jsonProp={usHist1302Data.revel['Chapter 17']} idProp="Chapter17RE" titleProp="Chapter 17 RE"></Section>

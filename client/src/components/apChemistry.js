@@ -1,9 +1,7 @@
-import react from 'react';
 import '../index.css'
 import { pdfjs } from 'react-pdf';
-import { Document, Page } from 'react-pdf';
+import { Document } from 'react-pdf';
 
-import Table from './Table'
 import Header from './Header'
 import Footer from './Footer'
 
