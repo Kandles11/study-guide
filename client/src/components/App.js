@@ -1,6 +1,8 @@
 import React from 'react';
 import PWAPrompt from 'react-ios-pwa-prompt'
 import Footer from './Footer'
+import { push as Menu } from 'react-burger-menu'
+
 
 
 
@@ -12,8 +14,13 @@ function App() {
         permanentlyHideOnDismiss={true}
         debug={false}
       />
-      <body> 
-        <main>
+      
+      <body>
+        <div id="outer-container">
+        <Menu pageWrapId={ "main-page-wrapper" } outerContainerId={ "outer-container" }>
+            <a href="/usHist1301">US History 1301 🇺🇸</a>
+        </Menu>
+        <main id="main-page-wrapper">
           <h1>Welcome to Mason's Study Guide!</h1>
           <div class="gridParent">
             <div class="flexChild">
@@ -32,7 +39,7 @@ function App() {
           </div>
         </main>
         <Footer/>
-        
+        </div>
       </body>
     </div>
   );
