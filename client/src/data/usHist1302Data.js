@@ -295,6 +295,48 @@ export const usHist1302Data = {
         "Question": "The Presidential candidate in 1912 who ran on a campaign called New Freedom was _.",
         "Answer": "Wilson"
       }
+    ],
+    "Chapter 24":[
+      {
+        "Question": "The Panama Canal did all of the following except:",
+        "Answer": "helped to improve our relationships with Latin American countries"
+      },
+      {
+        "Question": "Dollar Diplomacy was primarily practiced by President_.",
+        "Answer": "Taft"
+      },
+      {
+        "Question": "Some people felt that __ represented democracy in Mexico.",
+        "Answer": "Pancho Villa"
+      },
+      {
+        "Question": "The event that kicked off the Great War was __.",
+        "Answer": "The assassination of Archduke Ferdinand"
+      },
+      {
+        "Question": "The Central Powers were made up of __.",
+        "Answer": "Germany, Austria-Hungry, Ottoman Empire"
+      },
+      {
+        "Question": "Germany's plan to take France in a month by going through neutral Belgium was called __.",
+        "Answer": "the Schlieffen Plan"
+      },
+      {
+        "Question": "All of these things helped bring the U.S. into World War I except:",
+        "Answer": "Germany's invasion of neutral Belgium"
+      },
+      {
+        "Question": "The food administrator who encouraged people to grow victory gardens and participate in things like Wheatless Wednesdays was:",
+        "Answer": "Herbert Hoover"
+      },
+      {
+        "Question": "The prohibition law (_ Amendment) was passed during World War I, which made it unlawful to manufacture, sell, or transport liquor.",
+        "Answer": "18th"
+      },
+      {
+        "Question": "Wilson felt that the most important of his 14 Points was:",
+        "Answer": "a League of Nations"
+      }
     ]
   },
   "revel":{
