@@ -1,3 +1,5 @@
+import Carbonbadge from "react-carbonbadge"
+
 function Footer() {
   return (
     <footer>
@@ -31,7 +33,7 @@ function Footer() {
             points="160.31 0 111.09 85.26 61.86 0 60.02 0 0 0 0 154.61 222.17 154.61 222.17 0 160.31 0"
           />
         </svg>
-
+        <Carbonbadge darkMode={true} />
       </div>
       
     </footer>
