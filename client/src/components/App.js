@@ -38,7 +38,10 @@ function App() {
               <h2>Science:</h2>
               <a href="/apChemistry">AP Chemistry 🧪</a>
             </div>
+            
           </div>
+          <div id="wcb" class="carbonbadge"></div>
+        <script src="https://unpkg.com/website-carbon-badges@1.1.1/b.min.js" defer></script>
         </main>
         <Footer/>
       </body>
