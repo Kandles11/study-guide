@@ -31,8 +31,7 @@ function Footer() {
             points="160.31 0 111.09 85.26 61.86 0 60.02 0 0 0 0 154.61 222.17 154.61 222.17 0 160.31 0"
           />
         </svg>
-        <div id="wcb" class="carbonbadge"></div>
-        <script src="https://unpkg.com/website-carbon-badges@1.1.1/b.min.js" defer></script>
+
       </div>
       
     </footer>
