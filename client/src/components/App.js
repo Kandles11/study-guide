@@ -24,6 +24,7 @@ function App() {
       <body>
         <main>
           <h1>Welcome to Mason's Study Guide!</h1>
+          <h2 style={{color: "red"}}>UH OH! We're under construction again. We should be back up by March 5th. Sorry yall!</h2>
           <div class="gridParent">
             <div class="flexChild">
               <h2>History:</h2>
@@ -38,7 +39,6 @@ function App() {
               <h2>Science:</h2>
               <a href="/apChemistry">AP Chemistry 🧪</a>
             </div>
-
           </div>
         </main>
         <Footer/>
