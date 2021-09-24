@@ -1,7 +1,6 @@
 import '../index.css';
 import {Helmet} from "react-helmet";
 import { usHist1302Data } from '../data/usHist1302Data.js'
-import { slide as Menu } from 'react-burger-menu'
 
 
 import Section from './Section'
@@ -11,9 +10,6 @@ import Footer from './Footer'
 function usHist1302() {
   return (
     <div className="TestPage">
-      <Menu right>
-        <h2>Actions</h2>
-      </Menu>
       <Helmet>
         <title>US Hist-1302</title>
       </Helmet>
@@ -64,7 +60,6 @@ function usHist1302() {
           <Section jsonProp={usHist1302Data.revel['Chapter 20']} idProp="Chapter20RE" titleProp="Chapter 20 RE"></Section>
           <Section jsonProp={usHist1302Data.revel['Chapter 21']} idProp="Chapter21RE" titleProp="Chapter 21 RE"></Section>
         </main>
-        <div class="push"/>
         <Footer/>
       </body>
     </div>

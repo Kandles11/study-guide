@@ -51,7 +51,6 @@ function usHist1301() {
           <Section jsonProp={usHist1301Data.revel['Chapter 15']} idProp="Chapter15RE" titleProp="Chapter 15 RE"></Section>
           <Section jsonProp={usHist1301Data.revel['Chapter 16']} idProp="Chapter16RE" titleProp="Chapter 16 RE"></Section>
           </main>
-          <div class="push"/>
           <Footer/>
       </body>
     </div>

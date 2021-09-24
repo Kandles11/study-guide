@@ -32,7 +32,6 @@ function usGov2305() {
           <h3 id="Chapter4MI">Chapter 4 MI</h3>
           <Table json={usGov2305Data.mindtap['Chapter 4']} />
         </main>
-        <div class="push"/>
         <Footer />
       </body>
     </div>
