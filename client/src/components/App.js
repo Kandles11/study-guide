@@ -10,6 +10,10 @@ function App() {
         permanentlyHideOnDismiss={true}
         debug={false}
       />
+      <head>
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4365060926343383"
+     crossorigin="anonymous"></script>
+      </head>
       <body>
         <main>
           <h1>Welcome to Mason's Study Guide!</h1>
