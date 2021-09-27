@@ -6,7 +6,6 @@ import Header from './Header'
 import Footer from './Footer'
 
 
-
 function econ2301() {
   return (
     <div className="econ2301">
@@ -22,11 +21,9 @@ function econ2301() {
         </div>
         </div>
         <h2>Cengage</h2>
-          {/* <h3 id="Module1CE">Module 1</h3>
-          <Table json={usGov2305Data.mindtap['module1']} />
-          <h3 id="Module2CE">Module 2</h3>
-          <Table json={usGov2305Data.mindtap['module2']} /> */}
-          <Section jsonProp={econ2301Data.cengage['module3']} idProp="Module3CE" titleProp="Module 3"></Section>
+            <Section jsonProp={econ2301Data.cengage['module1']} idProp="Module1CE" titleProp="Module 1"></Section>
+            <Section jsonProp={econ2301Data.cengage['module2']} idProp="Module2CE" titleProp="Module 2"></Section>
+            <Section jsonProp={econ2301Data.cengage['module3']} idProp="Module3CE" titleProp="Module 3"></Section>
         </main>
         <Footer />
       </body>
