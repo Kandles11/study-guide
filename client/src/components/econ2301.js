@@ -1,7 +1,7 @@
 import '../index.css'
 import { econ2301Data } from '../data/econ2301Data.js'
 
-import Table from './Table'
+import Section from './Section'
 import Header from './Header'
 import Footer from './Footer'
 
