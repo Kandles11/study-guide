@@ -27,6 +27,10 @@ function App() {
               <h2>Government:</h2>
               <a href="/usGov2305">US Government 2305 👩‍⚖️</a>
             </div>
+            <div class="flexChild">
+              <h2>Economics:</h2>
+              <a href="/econ2301">Economics 2301 💵</a>
+            </div>
           </div>
         </main>
         <Footer/>

@@ -10,7 +10,8 @@ import App from './components/App';
 import usHist1302 from './components/usHist1302';
 import usHist1301 from './components/usHist1301';
 import usGov2305 from './components/usGov2305';
-import apChemistry from './components/apChemistry'
+import apChemistry from './components/apChemistry';
+import econ2301 from './components/econ2301';
 
 
 ReactDOM.render(
@@ -22,7 +23,7 @@ ReactDOM.render(
       <Route path="/usGov2305" component={usGov2305} />
       <Route path="/apChemistry" component={apChemistry} />
       <Route path="/apChemistry" component={apChemistry} />
-
+      <Route path="/econ2301" component={econ2301} />
 
     </div>
   </Router>,
