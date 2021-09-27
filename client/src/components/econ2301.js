@@ -26,8 +26,7 @@ function econ2301() {
           <Table json={usGov2305Data.mindtap['module1']} />
           <h3 id="Module2CE">Module 2</h3>
           <Table json={usGov2305Data.mindtap['module2']} /> */}
-          <h3 id="Module3CE">Module 3</h3>
-          <Table json={econ2301Data.cengage['module3']} />
+          <Section jsonProp={econ2301Data.cengage['module3']} idProp="Module3CE" titleProp="Module 3"></Section>
         </main>
         <Footer />
       </body>
