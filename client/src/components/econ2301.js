@@ -23,11 +23,11 @@ function econ2301() {
         </div>
         <h2>Cengage</h2>
           {/* <h3 id="Module1CE">Module 1</h3>
-          <Table json={usGov2305Data.mindtap['Chapter 1']} />
+          <Table json={usGov2305Data.mindtap['module1']} />
           <h3 id="Module2CE">Module 2</h3>
-          <Table json={usGov2305Data.mindtap['Chapter 2']} /> */}
+          <Table json={usGov2305Data.mindtap['module2']} /> */}
           <h3 id="Module3CE">Module 3</h3>
-          <Table json={econ2301Data.cengage['Module 3']} />
+          <Table json={econ2301Data.cengage['module3']} />
         </main>
         <Footer />
       </body>
