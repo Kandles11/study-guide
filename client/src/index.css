@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Work+Sans:wght@400;500;600;700&display=swap');
+@font-face {
+  font-family: 'Gardenia-Regular';
+  src: url('./assets/fonts/gardenia-regular-webfont.woff2') format('woff2'),
+       url('./assets/fonts/gardenia-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+:root{
+  --light-mode-background: #e0e0e0;
+  --border-color: #a4a7a0;
+  --text-color: #2f2f2f;
+  --table-light-color: #f0f0f0;
+  --table-dark-color: #f2f2f2;
+  --dark-mode-background: #262736;
+  --dark-mode-table-light-color: #2e2f42;
+  --dark-mode-table-dark-color: #1a1b25;
+}
+
+body {
+  font-family: 'Work-Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--light-mode-background);
+  color: var(--text-color);
+  height: 100%;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: bold;
+}
+
+h2 {
+  text-align: center;
+  margin: 10px;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: bold;
+}
+
+h3 {
+  text-align: center;
+  margin: 10px;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: bold;
+}
+
+table {
+  border-collapse: collapse;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid var(--border-color);
+}
+
+svg {
+  display: block;
+  margin: auto;
+  padding: 8px;
+}
+
+th {
+  background-color: var(--table-light-color);
+  border-style:solid;
+  border-width:0px;
+  color:var(--text-color);
+  padding:10px 5px;
+}
+
+th:first-child {
+  border-top-left-radius: 10px;
+}
+
+th:last-child {
+  border-top-right-radius: 10px;
+}
+
+td {
+  text-align: left;
+  padding: 15px;
+}
+
+tr:nth-child(odd) {background-color: var(--table-dark-color);}
+
+a {
+  border-radius: 18px;
+  border: 1px solid var(--border-color);
+  display:inline-block;
+	cursor:pointer;
+	color: var(--text-color);
+	font-size:15px;
+	font-weight:bold;
+  padding:20px 25px;
+	text-decoration:none;
+  margin: 10px;
+}
+a:hover {
+  transition:all .75s ease;
+  border-radius: 18px;
+  background: linear-gradient(145deg, #cacaca, #f0f0f0);
+  box-shadow:  14px 14px 29px #bebebe,
+             -14px -14px 29px #ffffff;
+}
+
+a:active {
+  border-radius: 18px;
+  background: #e0e0e0;
+  box-shadow: inset 14px 14px 29px #bebebe,
+            inset -14px -14px 29px #ffffff;
+}
+
+.flexChild {
+  text-align: center;
+  flex: 1;
+  border-radius: 18px;
+  margin: 8px;
+}
+
+.gridParent {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.flexParent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.smallButton {
+  padding: 10px 25px;
+}
+
+.headerFiller {
+  flex: 1;
+}
+
+main{
+  min-height: calc(100vh - 70px);
+}
+
+footer{
+  margin-top:15px;
+  height:50px;
+}
+
+/* Position and sizing of burger button */
+.bm-burger-button {
+  position: fixed;
+  width: 36px;
+  height: 30px;
+  right: 36px;
+  top: 36px;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: var(--text-color);
+}
+
+/* Color/shape of burger icon bars on hover*/
+.bm-burger-bars-hover {
+  background: #a90000;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #bdc3c7;
+}
+
+/*
+Sidebar wrapper styles
+Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+*/
+.bm-menu-wrap {
+  position: fixed;
+  height: 100%;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background: #373a47;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  color: #b8b7ad;
+  padding: 0.8em;
+}
+
+/* Individual item */
+.bm-item {
+  display: inline-block;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color:var(--dark-mode-background);
+    color: white;
+  }
+
+  a{
+    color:white;
+  }
+
+  table {
+    background:var(--dark-mode-table-dark-color);
+  }
+
+  tr:nth-child(odd) {background-color: var(--dark-mode-table-light-color);}
+
+  th {
+    color: white;
+    background-color:var(--dark-mode-table-light-color);
+  }
+
+  a:hover{
+    background: linear-gradient(145deg, #222331, #292a3a);
+    box-shadow:  20px 20px 60px #20212e,
+                -20px -20px 60px #2c2d3e;
+  }
+
+  a:active{
+    background: #262736;
+    box-shadow: inset 20px 20px 60px #20212e,
+                inset -20px -20px 60px #2c2d3e;
+  }
+  
+  svg{
+    fill:white;
+  }
+
+  /* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: white;
+}
+}
+
+@media only screen and (max-width: 640px) {
+
+  .gridParent {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  h1 {
+    text-align: center;
+  }
+  h2 {
+    text-align: center;
+  }
+  h3 {
+    text-align: center;
+  }
+
+  .gridParent {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  /* Position and sizing of burger button */
+  .bm-burger-button {
+    position: fixed;
+    width: 36px;
+    height: 30px;
+    right: 36px;
+    bottom: 36px;
+  }
+}
+
