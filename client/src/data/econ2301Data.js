@@ -90,6 +90,64 @@ export const econ2301Data = {
               "Answer": "A restaurant divides up the task of serving meals into a range of jobs like top chef, sous chefs, less-skilled kitchen help, and servers to wait on the tables."
             }
           ],
+        "module2":[
+            {
+              "Question": "The production possibility frontier has a straight shape because of the law of diminishing returns.",
+              "Answer": "FALSE"
+            },
+            {
+              "Question": "The economy below can produce either jets or guns.  If the economy produces 1 jet then it can produce 100 guns, however if the economy increases production of jets to 2 then production of guns decreases to 90, and so on.  What is the opportunity cost of producing the 3rd jet.",
+              "Answer": "20 guns"
+            },
+            {
+              "Question": "The lesson of __________ is to forget about the money that’s irretrievably gone and instead to focus on the marginal costs and benefits of future options.",
+              "Answer": "sunk costs"
+            },
+            {
+              "Question": "Which of the following statements best describes trade-offs?",
+              "Answer": "With a trade-off, it is necessary to give up some of one good to gain more of the other good."
+            },
+            {
+              "Question": "Which of the following is a normative statement?",
+              "Answer": "The minimum wage should be raised."
+            },
+            {
+              "Question": "Refer to the graph. An economy is operating at full employment, and then the economy experiences a recession. This change is portrayed in the movement from",
+              "Answer": "C to G."
+            },
+            {
+              "Question": "Matching: Marginal Analysis",
+              "Answer": "Comparison of the benefits and costs of a choice"
+            },
+            {
+              "Question": "Matching: Law of diminishing marginal utility",
+              "Answer": "The level of benefit decreases as consumption increases"
+            },
+            {
+              "Question": "Matching: Utility",
+              "Answer": "Satisfaction obtained from a good or service"
+            },
+            {
+              "Question": "Which of the following statement(s) best describes scarcity?",
+              "Answer": "Even if the budget constraint or a PPF shifts, scarcity remains—just at a different level."
+            },
+            {
+              "Question": "Refer to the graph. Along the production possibilities frontier, the most efficient point of production depicted is",
+              "Answer": "All points on the production possibilities frontier are equally efficient."
+            },
+            {
+              "Question": "Which of the following statements best describes productive efficiency?",
+              "Answer": "Productive efficiency occurs when it is impossible to produce more of one good (or service) without decreasing the quantity produced of another good (or service)."
+            },
+            {
+              "Question": "In many cases, it is reasonable to refer to the opportunity cost as the price.",
+              "Answer": "TRUE"
+            },
+            {
+              "Question": "The law of ____________________________ explains why people and societies get less utility from the additional consumption of a good or service.",
+              "Answer": "diminishing marginal utility"
+            }
+          ],
         "module3":[
             {
                 "Question": "Peanuts are used to make peanut butter. Suppose that the price of peanuts increase. What would you expect to happen to the equilibrium price and quantity of peanut butter due to the increase in the price of peanuts?",
