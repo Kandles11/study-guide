@@ -1,5 +1,95 @@
 export const econ2301Data = {
     "cengage":{
+        "module1":[
+            {
+              "Question": "Which of the following best describes the reason why the division of labor allows individuals and firms to specialize and produce more?",
+              "Answer": "It allows individuals and firms to take advantage of economies of scale."
+            },
+            {
+              "Question": "In the ______________, households receive goods and services and pay firms for them.",
+              "Answer": "goods and services market"
+            },
+            {
+              "Question": "Fill in the blank with the correct answer by typing in the box. Microeconomics focuses on the actions of individual agents within the economy, and macroeconomics looks at the economy as a _________.",
+              "Answer": "whole"
+            },
+            {
+              "Question": "In the ____________, households work and receive payment from firms.",
+              "Answer": "labor market"
+            },
+            {
+              "Question": "Economies that are primarily market oriented have fewer regulations.",
+              "Answer": "TRUE"
+            },
+            {
+              "Question": "Economics is the study of how humans make decisions in the face of scarcity.",
+              "Answer": "TRUE"
+            },
+            {
+              "Question": "A theory is a simplified representation of how two or more variables interact with each other.",
+              "Answer": "TRUE"
+            },
+            {
+              "Question": "Fill in the blank with the correct answer by typing in the box. The circular flow diagram shows how households and firms interact in the goods and services market, and in the _______ market.",
+              "Answer": "labor"
+            },
+            {
+              "Question": "Macroeconomics and microeconomics are concerned with the well-being of only people with jobs and high incomes, they just examine it from a different perspective.",
+              "Answer": "FALSE"
+            },
+            {
+              "Question": "In what geographic areas would a market-oriented system that remains closer to the command economy end of the spectrum most likely be found?",
+              "Answer": "China and Russia"
+            },
+            {
+              "Question": "Which of the following best describes the difference(s) between a model and a theory?",
+              "Answer": "A theory is a more abstract representation, while a model is more applied or empirical representation."
+            },
+            {
+              "Question": "Which of the following is most likely an example of specialization?",
+              "Answer": "Only those with medical degrees qualify to become doctors."
+            },
+            {
+              "Question": "Fill in the blank with the correct answer by typing in the box. Most economies in the real world are _________; they combine elements of command and market systems.",
+              "Answer": "mixed"
+            },
+            {
+              "Question": "Fill in the blank with the correct answer by typing in the box. Scarcity means that human wants for goods, services, and resources ______________ what is available.",
+              "Answer": "exceed"
+            },
+            {
+              "Question": "Macroeconomics primarily examines",
+              "Answer": "broad issues such as national output, employment, and inflation."
+            },
+            {
+              "Question": "Which of the following statements most likely lies within the realm of microeconomics?",
+              "Answer": "An increase in labor costs will increase the additional cost of producing another bus."
+            },
+            {
+              "Question": "Matching: Market",
+              "Answer": "Economies based on supply and demand"
+            },
+            {
+              "Question": "Matching: Traditional",
+              "Answer": "Economies that organize their economic affairs the way they have always done"
+            },
+            {
+              "Question": "Matching: Command",
+              "Answer": "Economies that are devoted to goals passed down from a ruler or ruling class"
+            },
+            {
+              "Question": "Globalization has most likely occurred for which of the following reasons?",
+              "Answer": "International agreements and treaties between countries have encouraged greater trade."
+            },
+            {
+              "Question": "Macroeconomics",
+              "Answer": "is concerned with the expansion and contraction of the overall economy."
+            },
+            {
+              "Question": "Which of the following is most likely an example of the division of labor?",
+              "Answer": "A restaurant divides up the task of serving meals into a range of jobs like top chef, sous chefs, less-skilled kitchen help, and servers to wait on the tables."
+            }
+          ],
         "module3":[
             {
                 "Question": "Peanuts are used to make peanut butter. Suppose that the price of peanuts increase. What would you expect to happen to the equilibrium price and quantity of peanut butter due to the increase in the price of peanuts?",
